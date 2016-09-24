@@ -1,13 +1,15 @@
 {
-    "name": "Projectile",
-    "version": "0.0.1",
-    "private": true,
-    "devDependencies": {
-        "grunt": "0.4.5",
-        "grunt-contrib-uglify": "0.7.0",
-        "grunt-contrib-concat": "0.5.0",
-        "grunt-contrib-cssmin" : "0.11.0",
-        "grunt-contrib-watch" : "0.6.1",
-        "grunt-contrib-uglify" : "0.7.0"
-    }
+  "name": "Projectile",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "grunt": "0.4.5",
+    "grunt-contrib-uglify": "0.7.0",
+    "grunt-contrib-concat": "0.5.0",
+    "grunt-contrib-cssmin": "0.11.0",
+    "grunt-contrib-watch": "0.6.1"
+  },
+  "dependencies": {
+    "http-server": "^0.9.0"
+  }
 }
